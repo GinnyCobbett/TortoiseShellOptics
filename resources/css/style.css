@@ -6,24 +6,39 @@ html {
 
 header {
   background-image: url(../media/glasses-bg.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
+}
+
+header .logo {
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 div {
   border: 0.5px dashed red;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
 h1 {
   font-weight: bold;
   font-size: 2rem;
-  line-height: 1.2;
-  text-align: center;
 }
 
 .container {
   max-width: 960px;
+  margin: auto;
+  display: flex;
 }
 
 #header {
@@ -32,18 +47,27 @@ h1 {
   position: relative;
   top: 1rem;
   width: 100%;
+  align-items: center;
   justify-content: space-between;
 }
 
-.nav li {
+nav ul {
+  display: flex;
+}
+
+nav li {
   padding: 1rem 2rem;
 }
 
-.title {
+.banner {
+  display: inline-block;
   background-color: white;
-  position: relative;
-  top: 10rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
 }
+
 
 .info-title {
   width: 10rem;
@@ -59,4 +83,8 @@ h1 {
 
 #copyright {
   background-color: azure;
+}
+
+footer .logo {
+  padding: 4rem 1rem 4rem 4rem;
 }
