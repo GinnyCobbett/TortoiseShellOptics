@@ -6,10 +6,9 @@ html {
 
 header {
   background-image: url(../media/glasses-bg.png);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30rem;
+  background-position: center;
 }
 
 header .logo {
@@ -33,7 +32,6 @@ nav, .info-title {
 
 h1 {
   font-weight: bold;
-  font-size: 2rem;
 }
 
 .container {
@@ -66,10 +64,8 @@ nav li {
 .banner {
   display: inline-block;
   background-color: white;
-  margin-top: 10rem;
-  margin-right: -2rem;
   line-height: 1.2;
-  padding: 1.5rem 5rem;
+
 }
 
 .benefits {
