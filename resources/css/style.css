@@ -73,9 +73,6 @@ nav li {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-height: 8rem;
-  max-width: 5rem;
-  margin: 3rem;
   text-align: center;
 }
 
@@ -95,24 +92,9 @@ nav li {
   width: 5rem;
 }
 
-.business {
-  justify-content: flex-start;
-  margin-bottom: 5rem;
-}
-
 .info-title {
-  width: 10rem;
   font-weight: bold;
   padding: 0.5rem 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.info {
-  max-width: 35%;
-}
-
-#appt {
-  margin-left: 5%
 }
 
 footer div {
@@ -122,3 +104,8 @@ footer div {
 footer .logo {
   padding: 4rem 1rem 4rem 4rem;
 }
+/*
+.business, .info, .info-title, .info-text {
+  border: 0.5px solid grey;
+}
+*/
