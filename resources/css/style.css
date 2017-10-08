@@ -8,11 +8,10 @@ header {
   background-image: url(../media/glasses-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 header .logo {
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 0rem 1rem 0rem 2rem;
 }
 
 nav, .info-title {
@@ -32,10 +31,10 @@ nav, .info-title {
 
 h1 {
   font-weight: bold;
+  text-align: center;
 }
 
 .container {
-  max-width: 960px;
   margin: auto;
 }
 
@@ -62,10 +61,8 @@ nav li {
 }
 
 .banner {
-  display: inline-block;
   background-color: white;
   line-height: 1.2;
-
 }
 
 .benefits {

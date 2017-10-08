@@ -1,37 +1,68 @@
+
+
 @media only screen and (min-width: 768px) {
   header {
     height: 30rem;
   }
+  .container {
+    max-width: 960px;
+  }
   .banner {
     margin-top: 10rem;
     margin-right: -2rem;
-    padding: 1.5rem 5rem;
   }
   h1 {
     font-size: 2rem;
+    padding: 1.5rem 5rem;
+  }
+  .shortmenu {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 768px) {
   header {
     height: 22rem;
-    }
+  }
   nav {
     position: fixed;
   }
+  .container {
+    width: 100%;
+  }
   .banner {
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-right: 2rem;
-    padding: 0.75rem 4rem;
   }
   h1 {
     font-size: 1.33rem;
+    padding: 0.75rem 4rem;
   }
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  header {
+    background-position: center;
+  }
+
 }
 
 @media only screen and (max-width: 400px) {
   header {
     height: 17rem;
+    background-position: 20%;
   }
-
+  .logo span {
+    display: none;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .banner {
+    margin-top: 12rem;
+    margin-right: 0;
+    width: 100%;
 }
